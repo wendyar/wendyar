@@ -1,7 +1,7 @@
 # Datos para el sito
 title: Blog personal
 markdown: kramdown
-baseurl: "/wendylu"
+baseurl: "/wendyar"
 exlude: ['README.md']
 description: Blog personal donde comparto proyectos y experiencias
 keywords: universidad abierta y a distancia de méxico, telemática, autodidácta
