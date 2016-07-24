@@ -1,0 +1,24 @@
+# Datos para el sito
+title: Blog personal
+markdown: kramdown
+baseurl: "/wendylu"
+exlude: ['README.md']
+description: Blog personal donde comparto proyectos y experiencias
+keywords: universidad abierta y a distancia de méxico, telemática, autodidácta
+
+
+# Mis datos
+autor: Wendy Magaña Argente
+imagen_personal: .jpg
+autor_descripcion: Actualmente soy una estudiante de la Ingeniería en Telemática y he creado este espacio para documentar y almacenar mis proyectos de vida.
+#email: es1611300455@gmail.com
+email_personal: wargente_10@outlook.com
+
+
+# Para redes sociales
+usuario_github: wendyar
+#usuario_facebook: "LADSG"
+#usuario_twitter: _AngelGuerrero_
+
+# Para el sistema
+permalink: none
