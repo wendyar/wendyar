@@ -24,10 +24,10 @@ header h1{
   text-align: center;
   text-shadow: 3px 3px #ccc;
 }
-header menu{
+header nav{
   display: flex;
 }
-header menu a{
+header nav a{
   /*font-family: 'Cinzel', serif;*/
   font-family: 'Lobster', cursive;
   font-size: 20px;
@@ -38,6 +38,8 @@ header menu a{
   text-align: center;
 }
 
-header menu a:hover{
+header nav a:hover{
   border-bottom: 4px solid rgb(228, 37, 106);
+  text-decoration: none;
+  color: black;
 }

@@ -7,18 +7,23 @@
   <!-- Si la página no es el index, muestra la plantilla base -->
   {% if page.url != "/" %}
 
+      {% include header.html %}
+
       <!-- Contenedor principal  -->
       <div id="contenedor-principal">
         <!-- Incluye la cabecera  -->
-        {% include header.html %}
+
+        <!-- Aquí va el contenido del sitio -->
         <section class="animated slideInUp">
-          <!-- Aquí va el contenido del sitio -->
           {{content}}
         </section>
 
         <!-- Pie de página principal -->
-        <footer id="pie-principal"><h3>El fin.</h3></footer>
+        <footer id="pie-principal" class="footer">
+          <h3>El fin.</h3>
+        </footer>
       </div>
+      {% include footer.html %}
 
     {% else %}
       {{ content }}

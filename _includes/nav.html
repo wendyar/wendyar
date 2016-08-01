@@ -1,1 +1,8 @@
-
+<!-- Menú del sitio -->
+<nav>
+	{% if page.url != '/' %}
+		<a href="{{site.baseurl}}/">Inicio</a>
+	{% endif %}
+		<a href="{{ site.baseurl }}/sobremi.html"   class="{% if page.url contains 'sobremi'  %}activo{% endif %}">Sobre mí</a>
+		<a href="{{ site.baseurl }}/trabajos/"      class="{% if page.url contains 'trabajos' %}activo{% endif %}">Trabajos</a>
+</nav>
