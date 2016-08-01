@@ -1,8 +1,10 @@
 ---
 layout: post
-title: Prueba desde github
-descripción: Esta es una pequeña descripción del post
+title: "Linea del tiempo"
+date: "2016-08-01 17:37:33 -0500"
+descripcion: Esta es una prueba desde github
 category: trabajos
+imagen: 
 ---
 
 # Esta es una prueba desde github
