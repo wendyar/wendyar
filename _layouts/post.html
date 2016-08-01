@@ -6,14 +6,17 @@ layout: base
 
   {{ content }}
 
-
+  <hr>
   <footer>
     <header>
-      <h2>{{ site.autor }}</h2>
-
         <span class="fecha">
-          Última modificación, {{ page.date | date: "%B, %d %Y" }}
+          <span class="glyphicon glyphicon-calendar"></span>
+          Fecha de publicación, {{ page.date | date: "%B, %d %Y" }}
         </span>
     </header>
+    <p>
+      <br>
+      <a href="{{ site.baseurl }}/trabajos" class="btn">Regresar</a>
+    </p>
   </footer>
 </article>
