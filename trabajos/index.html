@@ -1,0 +1,28 @@
+---
+# Este documento, muestra todos los trabajos que han sido publicados
+# Este documento, hereda de la base principal
+layout: base
+---
+
+<!-- Recorre únicamente los post que sean de categoria "trabajos" -->
+{% for post in site.categories.trabajos %}
+  {% if post.title contains "demo" %}
+
+  {% else %}
+  <article class="articulo">
+    <h2>{{ post.title }}</h2>
+    <p>
+      {{ post.descripcion }}
+    </p>
+    <p>
+      <span class="fecha">
+        {{ post.date | date: '%B %d, %Y' }}
+      </span>
+    </p>
+    <p>
+      <a href="{{site.baseurl}}{{ post.url }}" class="btn">Leer más</a>
+    </p>
+  </article>
+  {% endif %}
+
+{% endfor %}

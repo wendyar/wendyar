@@ -1,0 +1,19 @@
+---
+layout: base
+---
+
+<article class="articulo">
+
+  {{ content }}
+
+
+  <footer>
+    <header>
+      <h2>{{ site.autor }}</h2>
+
+        <span class="fecha">
+          Última modificación, {{ page.date | date: "%B, %d %Y" }}
+        </span>
+    </header>
+  </footer>
+</article>

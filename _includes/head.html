@@ -1,20 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <meta name="description" content="{{site.description}}">
+    <meta name="keywords" content="{{site.keywords}}">
+    <meta name="author" content="{{site.autor}}">
+    <title>{{site.title}}</title>
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.min.css" media="screen">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.1.0/octicons.min.css"> -->
+    <!-- jQuery -->
+    <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
-    <!-- Hojas de estilos personales -->
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/master.css" media="screen" title="no title" charset="utf-8">
-    <!--[if lt IE 9]>
-      <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- Hojas de estilo personales -->
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One|Cinzel|Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/animate.css" media="screen" title="no title" charset="utf-8">
+
+    {% if page.url == '/'%}
+      <!-- Hojas de estilo para el inicio de la página -->
+      <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/inicio.css" media="screen" title="no title" charset="utf-8">
+      <script src="{{ site.baseurl }}/assets/js/inicio.js" charset="utf-8"></script>
+    {% else %}
+      <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/base.css" media="screen" title="no title" charset="utf-8" >
+
+      <!-- Hojas de scripts personales  -->
+      <script src="{{site.baseurl}}/assets/js/base.js" charset="utf-8"></script>
+    {% endif %}
   </head>
-  <body>
