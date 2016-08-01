@@ -1,9 +1,33 @@
+<!DOCTYPE html>
+<!-- Esta es la base del documento del index principal  -->
+<html lang="en">
 {% include head.html %}
+<body>
 
-{% include nav.html %}
+  <!-- Si la página no es el index, muestra la plantilla base -->
+  {% if page.url != "/" %}
 
-<!-- Este es el contenido editable -->
-{{ content }}
+      <!-- Contenedor principal  -->
+      <div id="contenedor-principal">
+        <!-- Incluye la cabecera  -->
+        {% include header.html %}
+        <section class="animated slideInUp">
+          <!-- Aquí va el contenido del sitio -->
+          {{content}}
+        </section>
+
+        <!-- Pie de página principal -->
+        <footer id="pie-principal"><h3>El fin.</h3></footer>
+      </div>
+
+    {% else %}
+      {{ content }}
+  {% endif %}
 
 
-{% include footer.html %}
+
+
+
+
+  </body>
+</html>

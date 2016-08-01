@@ -1,0 +1,12 @@
+  <!-- Cabecera de la página principal  -->
+      <header id="cabecera-principal" class="{% if page.url == '/' %}animated slideInUp{% endif %}">
+        <h1>Wendy Argente</h1>
+        <!-- Menú del sitio -->
+        <menu>
+          {% if page.url != '/' %}
+            <a href="{{site.baseurl}}/">Inicio</a>
+          {% endif %}
+            <a href="{{ site.baseurl }}/sobremi.html"   class="{% if page.url contains 'sobremi'  %}activo{% endif %}">Sobre mí</a>
+            <a href="{{ site.baseurl }}/trabajos/"      class="{% if page.url contains 'trabajos' %}activo{% endif %}">Trabajos</a>
+        </menu>
+      </header>
