@@ -148,6 +148,9 @@ kbd{
   margin: 0;
 }
 
+.articulo a{
+  text-align: justify;
+}
 .articulo p{
   text-align: justify;
 }
