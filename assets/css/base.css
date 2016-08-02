@@ -151,6 +151,12 @@ kbd{
 .articulo p{
   text-align: justify;
 }
+.articulo img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto 10px auto;
+}
 .imagen-perfil img{
   max-width: 90%;
   margin: 30px auto;
