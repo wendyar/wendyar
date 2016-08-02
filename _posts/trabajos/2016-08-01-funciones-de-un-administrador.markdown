@@ -108,5 +108,3 @@ Alejandro, C. (21 de Junio de 2013). Responsabilidad social y ética administrat
 Waldogandoy. (08 de 08 de 2015). LA IMPORTANCIA DE LA RESPONSABILIDAD SOCIAL Y ETICA DEL ADMINISTRADOR. Obtenido de BLOG DE WALDOGANDOY: [Enlace](http://waldogandoy.blogdiario.com/1439057919/la-importancia-de-la-responsabilidad-social-y-etica-del-administrador-/)
 
 ---
-
-<div class="fb-comments" data-href="https://wendyar.github.io/wendyar/trabajos/funciones-de-un-administrador.html" data-width="100%" data-numposts="5"></div>
