@@ -8,6 +8,8 @@ imagen: administrador-cover
 base_url: site.baseurl
 ---
 
+
+
 # Funciones de un Administrador
 
 **1 - Investiga tres casos o ejemplos de empresas donde se observe la función que desempeña el administrador en las siguientes actividades:
@@ -101,6 +103,10 @@ Por lo que creo yo que es más simple y mucho más saludable guiarnos con rectit
 ---
 
 ## REFERENCIAS
-Alejandro, C. (21 de Junio de 2013). Responsabilidad social y ética administrativa. Obtenido de Slideshare.net: [http://es.slideshare.net/CesarAlejandro6/responsabilidad-social-y-tica-administrativa](http://es.slideshare.net/CesarAlejandro6/responsabilidad-social-y-tica-administrativa)
+Alejandro, C. (21 de Junio de 2013). Responsabilidad social y ética administrativa. Obtenido de Slideshare.net: [Enlace](http://es.slideshare.net/CesarAlejandro6/responsabilidad-social-y-tica-administrativa)
 
-Waldogandoy. (08 de 08 de 2015). LA IMPORTANCIA DE LA RESPONSABILIDAD SOCIAL Y ETICA DEL ADMINISTRADOR. Obtenido de BLOG DE WALDOGANDOY: [http://waldogandoy.blogdiario.com/1439057919/la-importancia-de-la-responsabilidad-social-y-etica-del-administrador-/](http://waldogandoy.blogdiario.com/1439057919/la-importancia-de-la-responsabilidad-social-y-etica-del-administrador-/)
+Waldogandoy. (08 de 08 de 2015). LA IMPORTANCIA DE LA RESPONSABILIDAD SOCIAL Y ETICA DEL ADMINISTRADOR. Obtenido de BLOG DE WALDOGANDOY: [Enlace](http://waldogandoy.blogdiario.com/1439057919/la-importancia-de-la-responsabilidad-social-y-etica-del-administrador-/)
+
+---
+
+<div class="fb-comments" data-href="https://wendyar.github.io/wendyar/trabajos/funciones-de-un-administrador.html" data-width="100%" data-numposts="5"></div>
