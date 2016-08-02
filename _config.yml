@@ -1,6 +1,7 @@
 # Datos para el sito
 title: Blog personal
 markdown: kramdown
+url: "https://wendyar.github.io"
 baseurl: "/wendyar"
 exlude: ['README.md']
 description: Blog personal donde comparto proyectos y experiencias
