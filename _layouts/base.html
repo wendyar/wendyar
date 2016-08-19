@@ -3,44 +3,36 @@
 <html lang="en">
 {% include head.html %}
 <body>
-  <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.7";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
-  
-  <!-- Si la página no es el index, muestra la plantilla base -->
-  {% if page.url != "/" %}
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.7";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 
-      {% include header.html %}
+    <!-- Si la página no es el index, muestra la plantilla base -->
+    {% if page.url != "/" %} {% include header.html %}
 
-      <!-- Contenedor principal  -->
-      <div id="contenedor-principal">
+    <!-- Contenedor principal  -->
+    <div id="contenedor-principal">
         <!-- Incluye la cabecera  -->
 
         <!-- Aquí va el contenido del sitio -->
         <section class="animated slideInUp">
-          {{content}}
+            {{content}}
         </section>
 
         <!-- Pie de página principal -->
         <footer id="pie-principal" class="footer">
-          <h3>El fin.</h3>
+            <h3>El fin.</h3>
         </footer>
-      </div>
-      {% include footer.html %}
+    </div>
+    {% include footer.html %} {% else %} {{ content }} {% endif %}
 
-    {% else %}
-      {{ content }}
-  {% endif %}
-
-
-
-
-
-
-  </body>
+</body>
 </html>

@@ -4,25 +4,24 @@
 layout: base
 ---
 <!-- Recorre únicamente los post que sean de categoria "trabajos" -->
-  {% for post in site.categories.trabajos %}
-      <article class="articulo">
-        <h2>{{ post.title }}</h2>
-        <div class="imagen-cover">
-          <img src="{{ site.baseurl }}/assets/images/{{ post.imagen }}.jpg" class="img-responsive" alt=""/>
-        </div>
-        <p class="text-justify">
-          {{ post.descripcion }}
-        </p>
-        <p>
-          <span class="glyphicon glyphicon-calendar"></span>
-          Fecha de publicación
-          <span class="fecha">
+{% for post in site.categories.trabajos %}
+<article class="articulo">
+    <h2>{{ post.title }}</h2>
+    <div class="imagen-cover">
+        <img src="{{ site.baseurl }}/assets/images/{{ post.imagen }}.jpg" class="img-responsive" alt="" />
+    </div>
+    <p class="text-justify">
+        {{ post.descripcion }}
+    </p>
+    <p>
+        <span class="glyphicon glyphicon-calendar"></span> Fecha de publicación
+        <span class="fecha">
             {{ post.date | date: '%B %d, %Y' }}
           </span>
-        </p>
-        <p>
-          <a href="{{site.baseurl}}{{ post.url }}" class="btn">Leer más  <span class="glyphicon glyphicon-heart"></span></a>
-        </p>
-      </article>
-      <hr>
-  {% endfor %}
+    </p>
+    <p>
+        <a href="{{site.baseurl}}{{ post.url }}" class="btn">Leer más  <span class="glyphicon glyphicon-heart"></span></a>
+    </p>
+</article>
+<hr>
+{% endfor %}

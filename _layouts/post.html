@@ -4,20 +4,19 @@ layout: base
 
 <article class="articulo">
 
-  {{ content }}
+    {{ content }}
 
-  <hr>
-  <footer>
-    <div class="fb-comments" data-href="{{site.url}}{{ site.baseurl }}{{ page.url }}" data-width="100%" data-numposts="5"></div>
-    <header>
-        <span class="fecha">
-          <span class="glyphicon glyphicon-calendar"></span>
-          Fecha de publicación, {{ page.date | date: "%B, %d %Y" }}
-        </span>
-    </header>
-    <p>
-      <br>
-      <a href="{{ site.baseurl }}/trabajos" class="btn">Regresar</a>
-    </p>
-  </footer>
+    <hr>
+    <footer>
+        <div class="fb-comments" data-href="{{site.url}}{{ site.baseurl }}{{ page.url }}" data-width="100%" data-numposts="5"></div>
+        <header>
+            <span class="fecha">
+          <span class="glyphicon glyphicon-calendar"></span> Fecha de publicación, {{ page.date | date: "%B, %d %Y" }}
+            </span>
+        </header>
+        <p>
+            <br>
+            <a href="{{ site.baseurl }}/trabajos" class="btn">Regresar</a>
+        </p>
+    </footer>
 </article>
