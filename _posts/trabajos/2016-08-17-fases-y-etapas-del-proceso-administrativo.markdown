@@ -191,3 +191,11 @@ Esto es un resumen de los inicios de Boeing y la vida de su fundador, pero recom
     </tbody>
   </table>
 </div>
+
+<hr>
+
+# Bibliografía
+
+dert16. (2010). John William Edward Boeing y The Boeing Company. Desde mi sueño, hasta mi profesión, [http://voyaserpiloto.blogspot.mx/2013/12/john-william-edward-boeing-y-boeing.html][58476fc6]
+
+  [58476fc6]: http://voyaserpiloto.blogspot.mx/2013/12/john-william-edward-boeing-y-boeing.html "Enlace"
